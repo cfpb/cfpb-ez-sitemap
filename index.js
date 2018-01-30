@@ -6,7 +6,7 @@ const SitemapGenerator = require('sitemap-generator');
 
 // create generator
 const generator = SitemapGenerator('https://www.consumerfinance.gov/', {
-  stripQuerystring: true
+  stripQuerystring: false
 });
  
 // register event listeners
